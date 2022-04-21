@@ -175,18 +175,18 @@ function cacher(txt, nb) {
 function init() {
   langue(english, hebraw, russian);
   /*if (currentlang) {
-        document.documentElement.setAttribute('data-lang', currentlang);
-        if (currentlang === 'he'){
-            hebraw.classList.toggle('current_lang');
-            english.classList.toggle('current_lang');
-            hebraw.classList.setItem('current_lang');
-        }
-        if (currentlang === 'ru'){
-            russian.classList.toggle('current_lang');
-            english.classList.toggle('current_lang');
-            russian.classList.setItem('current_lang');
-        }
-    }*/
+      document.documentElement.setAttribute('data-lang', currentlang);
+      if (currentlang === 'he'){
+          hebraw.classList.toggle('current_lang');
+          english.classList.toggle('current_lang');
+          hebraw.classList.setItem('current_lang');
+      }
+      if (currentlang === 'ru'){
+          russian.classList.toggle('current_lang');
+          english.classList.toggle('current_lang');
+          russian.classList.setItem('current_lang');
+      }
+  }*/
   if (currentTheme) {
     document.documentElement.setAttribute("data-theme", currentTheme);
     if (currentTheme === "dark") {
