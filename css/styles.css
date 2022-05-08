@@ -10,18 +10,17 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-body {
+* section {
   margin: 0;
   padding: 0;
   background-color: #000;
 }
 
 .block {
-  position: sticky;
-  margin: 50px auto;
-  width: 250px;
-  height: 188px;
-  background: linear-gradient(0deg, #000, #272727);
+  position: absolute;
+  margin: 100px;
+  width: auto;
+  height: auto;
 }
 
 .block:before,
@@ -12156,7 +12155,7 @@ footer .wave#wave4 {
   margin-left: -100px;
   flex: 1;
   background-color: rgb(var(--bs-secondary-rgb));
-  padding: 7rem 2rem;
+  padding: 0rem 8rem;
   border-radius: 12px;
   box-shadow: 0px 0px 20px #00000028;
   z-index: 2;
